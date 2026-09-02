@@ -4,7 +4,7 @@
   "skill_name": "friend-zhang-ge",
   "display_name": "张哥",
   "slug": "zhang-ge",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "created_at": "2026-09-02",
   "updated_at": "2026-09-02",
   "runtime_preferences": {
@@ -34,6 +34,6 @@
     "memory.md",
     "intimacy-and-state.md"
   ],
-  "change_summary": "Repository packaging was sanitized so only the trained result remains; sensitive training material is excluded and future evidence paths are ignored.",
+  "change_summary": "Added a sanitized hardware-project communication and state-pattern update from an authorized group export; raw messages, media, identifiers, evidence, hashes, paths, and snapshots remain excluded.",
   "local_only": true
 }
