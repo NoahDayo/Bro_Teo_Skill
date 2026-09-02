@@ -1,0 +1,9 @@
+# Training sources and derived evidence must never enter this repository.
+**/evidence/
+**/versions/
+**/*.jsonl
+**/group_*.json
+**/friend_*.json
+**/Msg3.0*.db
+**/Msg3.0*.db-wal
+**/Msg3.0*.db-shm

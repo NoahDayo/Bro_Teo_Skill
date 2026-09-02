@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.1",
+  "artifact_type": "sanitized_trained_result",
+  "skill_name": "friend-zhang-ge",
+  "display_name": "张哥",
+  "slug": "zhang-ge",
+  "version": "1.4.0",
+  "created_at": "2026-09-02",
+  "updated_at": "2026-09-02",
+  "runtime_preferences": {
+    "default_mode": "immersive-high",
+    "active_romantic_simulation": true,
+    "active_psychological_state_simulation": true,
+    "romantic_intensity": "high",
+    "psychological_state_intensity": "high",
+    "persistent_by_default": true,
+    "hard_safety_override": true,
+    "user_requested": true,
+    "supporting_rules": "intimacy-and-state.md"
+  },
+  "training_data": {
+    "source_manifest_in_repo": false,
+    "raw_chat_in_repo": false,
+    "transcripts_in_repo": false,
+    "evidence_in_repo": false,
+    "identifiers_in_repo": false,
+    "source_paths_in_repo": false,
+    "retained_content": "abstracted persona, sanitized relationship memory, and runtime behavior rules only",
+    "redaction": "Removed source exports, transcripts, account and group identifiers, message identifiers, hashes, source paths, reports, audit materials, and historical snapshots."
+  },
+  "artifacts": [
+    "SKILL.md",
+    "persona.md",
+    "memory.md",
+    "intimacy-and-state.md"
+  ],
+  "change_summary": "Repository packaging was sanitized so only the trained result remains; sensitive training material is excluded and future evidence paths are ignored.",
+  "local_only": true
+}
